@@ -1,6 +1,6 @@
 ﻿## Server Input Bug
 
-When Replicate() is called on a non-owned nob, the IReplicateData never sends.
+When Replicate() is called on a non-owned nob, the IReplicateData gets lost.
 On the host client, a log is printed when calling Replicate ("SENT") and when Replicate is actually called ("RECEIVED").
 
 **Instructions:**
@@ -16,7 +16,7 @@ https://github.com/RyanGarber/FishNet-PV2/assets/2010001/de5454c4-96c0-476c-8f44
 
 ## Observer Replicate Bug
 
-Observers see an object way ahead of where it should be. Once it stops, it gets reconciled back into reality. It also generally looks bad.
+Observers see an object way ahead of where it should be. Once it stops, it gets reconciled back into reality. It also jumps around and looks bad.
 
 **Instructions:**
 - Click the button
