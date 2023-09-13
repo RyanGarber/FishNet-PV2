@@ -18,7 +18,7 @@ https://github.com/RyanGarber/FishNet-PV2/assets/2010001/de5454c4-96c0-476c-8f44
 ## Observer Replicate Bug
 [GitHub Issue #461](https://github.com/firstGearGames/fishNet/issues/461)
 
-Observers see an object way ahead of where it should be. Once it stops, it gets reconciled back into reality. It also jumps around.
+Observers see an object way ahead of where it should be. Once it stops, it gets reconciled back into reality. It also looks jumps around and looks choppy.
 
 **Instructions:**
 - Click the button
