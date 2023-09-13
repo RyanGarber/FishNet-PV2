@@ -2,7 +2,7 @@
 [GitHub Issue #460](https://github.com/firstGearGames/fishNet/issues/460)
 
 When Replicate() is called by the server on an ownerless nob, the IReplicateData gets lost.
-On the host client, a log is printed when calling Replicate ("SENT") and when Replicate is actually called ("RECEIVED").
+To show the issue, a log is printed when calling Replicate ("SENT") and when Replicate is actually called ("RECEIVED") on the server.
 
 **Instructions:**
 - Click the button
@@ -18,7 +18,7 @@ https://github.com/RyanGarber/FishNet-PV2/assets/2010001/de5454c4-96c0-476c-8f44
 ## Observer Replicate Bug
 [GitHub Issue #461](https://github.com/firstGearGames/fishNet/issues/461)
 
-Observers see an object way ahead of where it should be. Once it stops, it gets reconciled back into reality. It also jumps around and looks bad.
+Observers see an object way ahead of where it should be. Once it stops, it gets reconciled back into reality. It also jumps around.
 
 **Instructions:**
 - Click the button
